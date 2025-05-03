@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+		<title>Alpine Valley Resort | Contact</title>
+		<meta name="author" content="Haley Jay">
+        <meta name="description" content="Contact page for Alpine Valley Resort, a travel and booking website.">
+
+        <link rel="stylesheet" href="https://use.typekit.net/piq0vtf.css">
+
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Alpine Valley Resort</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <img src="images/swiss-valley.jpg" alt="Alpine Valley Resort in beautiful valley of Swiss Alps panoramic view of mountains" class="hero" width="1440" height="560">
+    <main>
+        <section id="contact">
+        <div class="contact-flex">
+            <div class="contact-left">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. 
+            We are happy to help you plan your dream vacation with us! <br>
+                <strong>Required fields marked with a (<span class="required">*</span>).</strong>
+            </p>
+            <img src="images/swiss-peak.jpg" alt="Sunset view over snowy Swiss mountains" width="350" height="455">
+        </div>
+
+        <form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="POST" class="contact-right">
+        
+            <label for="my-name">Full Name: <span class="required">*</span></label><br>
+            <input type="text" name="my-name" id="my-name" required><br>
+
+            <label for="my-email">Email Address: <span class="required">*</span></label><br>
+            <input type="email" name="my-email" id="my-email" required><br>
+
+            <label for="my-phone">Phone: <span class="required">*</span></label><br>
+			<input type="tel" name="my-phone" id="my-phone" required><br>
+
+            <fieldset>
+                <legend>Preferred Contact Method <span class="required">*</span></legend>
+                <input type="radio" name="contact-pref" id="pref-email" value="email">
+                <label for="pref-email">Email</label>
+
+                <input type="radio" name="contact-pref" id="pref-phone" value="phone">
+                <label for="pref-phone">Phone</label>
+            </fieldset>
+
+            <label for="comments">Comments: <span class="required">*</span></label><br>
+            <textarea name="comments" id="comments" required></textarea>
+
+            <input type="submit" name="my-submit" id="my-submit" value="Submit">
+        </form>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2025 Alpine Valley Resort</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+</body>
+</html>
